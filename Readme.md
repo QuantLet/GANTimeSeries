@@ -1,2 +1,11 @@
 This repository contains the code for the plots and CNNs of the talk GAN for time series
 ![Van Gogh](vg.jpg)
+![Van Gogh_red](vg_reds.jpg)
+![Van Gogh_blue](vg_blues.jpg)
+![Van Gogh_green](vg_greens.jpg)
+![singletsimage](singletsimage.png)
+![AR1](AR1.png)
+![wn](wn.png)
+![sinus](sinus.png)
+![stat_analysis](stationarity_analysis_ts_plot.jpg)
+![stat_analysis_plot](rp_transp_plot.gif)
