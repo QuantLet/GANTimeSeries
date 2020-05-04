@@ -9,7 +9,7 @@ This repository contains the code for the plots and CNNs of the talk GAN for tim
 ![sinus](sinus.png)
 ![stat_analysis](stationarity_analysis_ts_plot.jpg)
 ![stat_analysis_plot](rp_transp_plot.gif)
-![TTP](Train_Test_Performance.png)
+
 ![crixtest](CRIX_Test.png)
 ![crixpred](CRIX_pred.png)
 ![error_plot](error_plot_CNN.png)
