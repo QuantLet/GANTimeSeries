@@ -7,7 +7,8 @@
 ![AR1](AR1.png)
 ![wn](wn.png)
 ![sinus](sinus.png)
-![stat_analysis](stationarity_analysis_ts_plot.jpg)
+![stat_analysis](stationarity_analysis_ts_plot.png)
+![stat_analysis_e](rp_plots_transparent.gif)
 ![stat_analysis_plot](rp_transp_plot.gif)
 
 ![crixtest](CRIX_Test.png)
