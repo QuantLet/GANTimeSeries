@@ -13,4 +13,7 @@
 
 ![crixtest](CRIX_Test.png)
 ![crixpred](CRIX_pred.png)
-![error_plot](error_plot_CNN.png)
+![error_plot1](error_plot_CNN_down1.png)
+![error_plot2](error_plot_CNN_down2.png)
+![error_plot3](error_plot_CNN_up1.png)
+![error_plot4](error_plot_CNN_up2.png)
