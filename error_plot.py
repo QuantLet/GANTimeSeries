@@ -5,8 +5,8 @@ from matplotlib import rc
 from matplotlib import cm
 from matplotlib.colors import ListedColormap
 
-y = np.load('y_test.npy')[:-1]
-yhat = np.load('preds_test.npy')[1:]
+y = np.load('y_test.npy')
+yhat = np.load('preds_test.npy')
 dates = np.load('dates.npy')[-y.shape[0]:]
 
 
@@ -15,14 +15,18 @@ break_1 = 125
 break_2 = 300
 break_3 = 350
 fig, ax = plt.subplots(figsize=(12, 8))
-ax.plot(dates[:break_1], y[:break_1],c='blue')
-ax.plot(dates[break_1-1:break_2], y[break_1-1:break_2],c='green')
+ax.plot(dates[:break_1], y[:break_1], c='blue')
+ax.plot(dates[break_1-1:break_2], y[break_1-1:break_2], c='green')
 ax.plot(dates[break_2-1:break_3], y[break_2-1:break_3], c='blue')
 ax.plot(dates[break_3-1:], y[break_3-1:], c='green')
 ax.plot(dates, yhat, c='red')
 ax.spines['right'].set_visible(False)
 ax.spines['top'].set_visible(False)
 plt.savefig('split_sequence.png', transparent=True)
+
+y = np.load('y_test.npy')[:-1]
+yhat = np.load('preds_test.npy')[1:]
+dates = np.load('dates.npy')[-y.shape[0]:]
 
 ccoeff = np.corrcoef(yhat.flatten(), y.flatten())[1, 0].round(4)
 
@@ -34,7 +38,7 @@ vals[:, 1] = np.linspace(1,0.2658, N)
 vals[:, 2] = np.linspace(1,0.5696, N)
 newcmp = ListedColormap(vals)
 
-cm = plt.cm.get_cmap('Blues')
+cm = plt.cm.get_cmap('summer')
 
 yhat_break = yhat[:break_1]
 y_break = y[:break_1]
@@ -48,7 +52,7 @@ ax.spines['top'].set_visible(False)
 plt.savefig('error_plot_CNN_up1.png',transparent=True)
 plt.show()
 
-cm = plt.cm.get_cmap('Greens')
+cm = plt.cm.get_cmap('winter')
 yhat_break = yhat[break_1:break_2]
 y_break = y[break_1:break_2]
 fig, ax = plt.subplots(figsize=(8, 8))
@@ -61,7 +65,7 @@ ax.spines['top'].set_visible(False)
 plt.savefig('error_plot_CNN_down1.png', transparent=True)
 plt.show()
 
-cm = plt.cm.get_cmap('Blues')
+cm = plt.cm.get_cmap('summer')
 yhat_break = yhat[break_2-1:break_3]
 y_break = y[break_2-1:break_3]
 fig, ax = plt.subplots(figsize=(8, 8))
@@ -74,7 +78,7 @@ ax.spines['top'].set_visible(False)
 plt.savefig('error_plot_CNN_up2.png', transparent=True)
 plt.show()
 
-cm = plt.cm.get_cmap('Greens')
+cm = plt.cm.get_cmap('winter')
 yhat_break = yhat[break_3-1:]
 y_break = y[break_3-1:]
 fig, ax = plt.subplots(figsize=(8, 8))
