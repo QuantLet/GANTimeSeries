@@ -2,8 +2,8 @@ Name of Quantlet: 'GAN_TS_recurrence.py'
 
 Published in: ''
 
-Description: ''
+Description: 'Time series simulation and analysis with GAN. Visualisation with recurrence plots.'
 
-Keywords: ''
+Keywords: 'GAN, recurrence plot, time series, non stationarity, simulation'
 
-Author: 'MANDATORY'
+Author: ''
