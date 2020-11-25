@@ -1,0 +1,9 @@
+Name of Quantlet: 'GAN_Gamma_Distribution'
+
+Published in: ''
+
+Description: 'Training a GAN on dataset of 1000 samples of a Gamma distribution. Input of the generator is a std. normal distribution, the GAN is trained for 4000 epochs. Every 100 epochs histograms of generated and training data are plotted.'
+
+Keywords: 'GAN, distribution, transformation, simulation, generation, neural network'
+
+Author: 'marius sterling'
