@@ -20,6 +20,8 @@ Author: 'marius sterling'
 
 ![Picture2](dist_gamma_gaussian.png)
 
+![GIF](GAN_GAMMA_Hist.gif)
+
 ### PYTHON Code
 ```python
 
