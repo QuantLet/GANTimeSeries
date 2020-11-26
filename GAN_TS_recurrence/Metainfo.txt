@@ -1,4 +1,4 @@
-Name of Quantlet: 'GAN_TS_recurrence.py'
+Name of Quantlet: GAN_TS_recurrence
 
 Published in: ''
 
