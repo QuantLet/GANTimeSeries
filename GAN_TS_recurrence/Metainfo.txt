@@ -6,4 +6,6 @@ Description: 'Time series simulation and analysis with GAN. Visualisation with r
 
 Keywords: 'GAN, recurrence plot, time series, non stationarity, simulation'
 
-Author: ''
+Author: 'Marius Sterling'
+
+Submitted:
